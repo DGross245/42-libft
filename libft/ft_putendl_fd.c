@@ -6,11 +6,13 @@
 /*   By: dgross <dgross@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/15 18:51:56 by dgross            #+#    #+#             */
-/*   Updated: 2022/04/15 18:56:32 by dgross           ###   ########.fr       */
+/*   Updated: 2022/05/01 19:20:27 by dgross           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+#include <stddef.h> // size_t
 
 void	ft_putendl_fd(char *s, int fd)
 {

@@ -6,11 +6,13 @@
 /*   By: dgross <dgross@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/19 20:13:40 by dgross            #+#    #+#             */
-/*   Updated: 2022/04/28 00:39:24 by dgross           ###   ########.fr       */
+/*   Updated: 2022/05/01 19:14:19 by dgross           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+#include <stddef.h> // NULL
 
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {

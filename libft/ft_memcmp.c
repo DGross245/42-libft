@@ -6,11 +6,13 @@
 /*   By: dgross <dgross@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/11 18:53:29 by dgross            #+#    #+#             */
-/*   Updated: 2022/04/14 17:27:35 by dgross           ###   ########.fr       */
+/*   Updated: 2022/05/01 19:17:45 by dgross           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+#include <stddef.h> // size_t
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {

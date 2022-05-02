@@ -6,11 +6,13 @@
 /*   By: dgross <dgross@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/11 18:52:10 by dgross            #+#    #+#             */
-/*   Updated: 2022/04/14 21:21:37 by dgross           ###   ########.fr       */
+/*   Updated: 2022/05/01 19:17:14 by dgross           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+#include <stddef.h> // size_t NULL
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {

@@ -6,11 +6,13 @@
 /*   By: dgross <dgross@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/23 12:17:24 by dgross            #+#    #+#             */
-/*   Updated: 2022/04/13 16:32:22 by dgross           ###   ########.fr       */
+/*   Updated: 2022/05/01 19:26:10 by dgross           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+#include <stddef.h> // size_t
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {

@@ -6,11 +6,14 @@
 /*   By: dgross <dgross@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/16 14:46:55 by dgross            #+#    #+#             */
-/*   Updated: 2022/04/18 17:47:12 by dgross           ###   ########.fr       */
+/*   Updated: 2022/05/01 19:22:47 by dgross           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+#include <stddef.h> // size_t NULL
+#include <stdlib.h> // free malloc
 
 static size_t	ft_strcounter(char const *str, char c)
 {

@@ -6,11 +6,13 @@
 /*   By: dgross <dgross@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/23 12:17:13 by dgross            #+#    #+#             */
-/*   Updated: 2022/04/14 17:58:45 by dgross           ###   ########.fr       */
+/*   Updated: 2022/05/01 19:24:47 by dgross           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+#include <stddef.h> // size_t
 
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {

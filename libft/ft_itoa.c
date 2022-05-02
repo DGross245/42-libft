@@ -6,11 +6,14 @@
 /*   By: dgross <dgross@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/15 20:35:43 by dgross            #+#    #+#             */
-/*   Updated: 2022/04/16 14:44:13 by dgross           ###   ########.fr       */
+/*   Updated: 2022/05/01 19:08:41 by dgross           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+#include <stddef.h> // NULL size_t
+#include <stdlib.h> // malloc
 
 static int	ft_len(int n)
 {

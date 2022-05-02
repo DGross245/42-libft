@@ -6,11 +6,13 @@
 /*   By: dgross <dgross@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/19 13:11:00 by dgross            #+#    #+#             */
-/*   Updated: 2022/04/19 15:39:42 by dgross           ###   ########.fr       */
+/*   Updated: 2022/05/01 19:16:32 by dgross           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+#include <stddef.h> // NULL
 
 int	ft_lstsize(t_list *lst)
 {

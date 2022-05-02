@@ -6,11 +6,14 @@
 /*   By: dgross <dgross@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/15 12:52:42 by dgross            #+#    #+#             */
-/*   Updated: 2022/04/16 16:21:55 by dgross           ###   ########.fr       */
+/*   Updated: 2022/05/01 19:24:30 by dgross           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+#include <stddef.h> // size_t NULL
+#include <stdlib.h> // malloc
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {

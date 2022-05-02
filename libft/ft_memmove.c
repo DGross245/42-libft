@@ -6,11 +6,13 @@
 /*   By: dgross <dgross@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/11 18:57:10 by dgross            #+#    #+#             */
-/*   Updated: 2022/04/14 12:28:55 by dgross           ###   ########.fr       */
+/*   Updated: 2022/05/01 19:18:57 by dgross           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+#include <stddef.h> // size_t NULL
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {

@@ -6,11 +6,13 @@
 /*   By: dgross <dgross@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/23 12:17:10 by dgross            #+#    #+#             */
-/*   Updated: 2022/04/15 11:06:55 by dgross           ###   ########.fr       */
+/*   Updated: 2022/05/01 19:23:15 by dgross           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+#include <stddef.h> // NULL
 
 char	*ft_strchr(const char *s, int c)
 {

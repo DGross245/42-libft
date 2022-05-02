@@ -6,11 +6,14 @@
 /*   By: dgross <dgross@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/18 19:04:03 by dgross            #+#    #+#             */
-/*   Updated: 2022/04/19 13:04:05 by dgross           ###   ########.fr       */
+/*   Updated: 2022/05/01 19:15:20 by dgross           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+#include <stddef.h> // NULL
+#include <stdlib.h> // malloc
 
 t_list	*ft_lstnew(void *content)
 {

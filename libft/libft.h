@@ -6,19 +6,14 @@
 /*   By: dgross <dgross@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/23 13:00:11 by dgross            #+#    #+#             */
-/*   Updated: 2022/04/25 15:53:19 by dgross           ###   ########.fr       */
+/*   Updated: 2022/05/01 19:36:25 by dgross           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stdio.h>
-# include <string.h>
 # include <stddef.h>
-# include <stdlib.h>
-# include <stdint.h>
-# include <unistd.h>
 
 typedef struct s_list
 {
