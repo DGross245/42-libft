@@ -6,7 +6,7 @@
 /*   By: dgross <dgross@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/11 18:58:38 by dgross            #+#    #+#             */
-/*   Updated: 2022/05/01 19:06:13 by dgross           ###   ########.fr       */
+/*   Updated: 2022/05/02 19:25:57 by dgross           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,12 +20,7 @@ void	*ft_calloc(size_t count, size_t size)
 {
 	void	*pointer;
 
-	if (!size || !count)
-	{
-		size = 1;
-		count = 1;
-	}
-	if (size > SIZE_MAX / count)
+	if (count != 0 && size > SIZE_MAX / count)
 		return (NULL);
 	pointer = malloc (count * size);
 	if (pointer == NULL)
